@@ -162,7 +162,9 @@
           </p>
         </div>
         <div class="col-12 content">
-          <div class="content-map" id="mapping"></div>
+          <div class="content-map" id="mapping">
+            <img src="assets/images/id.png" alt="" id="maps">
+          </div>
           <div class="button-map">
             <div class="navigation-regional" id="regionalOne">Regional 1</div>
             <span class="vertical-line"></span>
@@ -205,27 +207,38 @@
         $("#regionalThree").on("click", regionalThree);
         $("#regionalFour").on("click", regionalFour);
         // console.log(config["region1"]);
-        let map = $("#mapping").vectorMap({
-          map: "indonesia-adm1_merc",
-          backgroundColor: "none",
-          zoomButtons: false,
-          zoomMin: 1,
-          zoomMax: 1,
-          focusOn: {
-            x: 0.5,
-            y: 0.5,
-            scale: 0.9,
-          },
-          regionStyle: {
-            initial: {
-              fill: "gray",
-            },
-            hover: {
-              fill: "#FFA25D",
-            },
-            "stroke-width": 10,
-          },
-        });
+
+        $("#regionalOne").hover(
+          function() {
+            $("#maps").prop('src', 'assets/images/id reg 1.png');
+          }, function() {
+            $("#maps").prop('src', 'assets/images/id.png');
+          }
+        );
+
+        $("#regionalTwo").hover(
+          function() {
+            $("#maps").prop('src', 'assets/images/id reg 2.png');
+          }, function() {
+            $("#maps").prop('src', 'assets/images/id.png');
+          }
+        );
+
+        $("#regionalThree").hover(
+          function() {
+            $("#maps").prop('src', 'assets/images/id reg 3.png');
+          }, function() {
+            $("#maps").prop('src', 'assets/images/id.png');
+          }
+        );
+
+        $("#regionalFour").hover(
+          function() {
+            $("#maps").prop('src', 'assets/images/id reg 4.png');
+          }, function() {
+            $("#maps").prop('src', 'assets/images/id.png');
+          }
+        );
       });
 
       function getData(data) {

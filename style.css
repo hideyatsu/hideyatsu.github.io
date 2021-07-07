@@ -133,6 +133,12 @@ div#listRegionalApp::-webkit-scrollbar-track-piece {
   background: white;
 }
 
+#maps {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
 /* div#listRegionalApp::-webkit-scrollbar-button:end:increment {
   display: block;
   background: transparent;
