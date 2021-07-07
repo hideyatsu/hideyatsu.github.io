@@ -1,0 +1,145 @@
+div.row.background-image-custom {
+  background-image: url("assets/images/background.png");
+  -webkit-background-size: 100vw 80vh;
+  -moz-background-size: 100vw 80vh;
+  -o-background-size: 100vw 80vh;
+  background-size: 100vw 80vh;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+li.nav-item > a.nav-link.font-custom {
+  color: white;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 41px;
+}
+button.btn.btn-lg.dropdown-toggle.font-custom {
+  color: white;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 41px;
+}
+button.btn.font-custom2 {
+  background-color: #10cb6c;
+  color: white;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 41px;
+  width: 200px;
+  height: 60px;
+}
+
+div.col-12.content {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+div.content-map#mapping {
+  margin: 80px auto 0px;
+  padding-top: 100px;
+  width: 80%;
+  background-color: white;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 22px 7px rgba(0, 0, 0, 0.11);
+}
+
+p.description {
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: auto;
+  width: 45%;
+  text-align: center;
+  color: white;
+}
+
+h1.title {
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2.5em;
+  line-height: 70px;
+  color: white;
+}
+
+div.button-map {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 50px auto 0;
+  width: 55%;
+  background-color: #557ef8;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.11);
+}
+div.button-map div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway";
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.vertical-line {
+  border-left: 2px solid white;
+  height: 80%;
+  left: 50%;
+}
+div.navigation-regional:hover {
+  opacity: 0.2;
+  background-color: black;
+  cursor: pointer;
+}
+
+div#listRegionalApp {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0 5px;
+  max-height: 80vh;
+  min-height: 80vh;
+  overflow-y: auto;
+  /* Add vertical scrollbar */
+  scrollbar-width: none;
+}
+
+div#listRegionalApp::-webkit-scrollbar {
+  width: 5px;
+}
+div#listRegionalApp::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+div#listRegionalApp::-webkit-scrollbar-track-piece {
+  background: white;
+}
+
+/* div#listRegionalApp::-webkit-scrollbar-button:end:increment {
+  display: block;
+  background: transparent;
+} */
+/* div.modal-dialog.modal-lg#modalDialog {
+  margin: auto;
+} */
+/* div#modalApp div.modal-dialog.modal-lg#modalDialog div.modal-content {
+  width: 65vw;
+} */
