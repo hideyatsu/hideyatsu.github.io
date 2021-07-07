@@ -18,7 +18,7 @@ li.nav-item > a.nav-link.font-custom {
 }
 button.btn.btn-lg.dropdown-toggle.font-custom {
   color: white;
-  font-family: Catamaran;
+  /*font-family: Catamaran;*/
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
