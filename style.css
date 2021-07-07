@@ -10,7 +10,7 @@ div.row.background-image-custom {
 
 li.nav-item > a.nav-link.font-custom {
   color: white;
-  font-family: Catamaran;
+  /*font-family: Catamaran;*/
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -27,7 +27,7 @@ button.btn.btn-lg.dropdown-toggle.font-custom {
 button.btn.font-custom2 {
   background-color: #10cb6c;
   color: white;
-  font-family: Catamaran;
+  /*font-family: Catamaran;*/
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -52,7 +52,7 @@ div.content-map#mapping {
 }
 
 p.description {
-  font-family: Catamaran;
+  /*font-family: Catamaran;*/
   font-style: normal;
   font-weight: 500;
   font-size: 1.2em;
@@ -91,7 +91,7 @@ div.button-map div {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Raleway";
+  /*font-family: "Raleway";*/
   font-size: 25px;
   color: white;
   width: 100%;
