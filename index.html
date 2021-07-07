@@ -249,12 +249,13 @@
         dataArr.forEach((result) => {
           listApp += `<div class="card" style="width: 230px; height:300px;background-color: #ebebeb;text-align:center; margin:10px">
             <div class="card-body">
+            <div style="height:90px; position: relative; margin-bottom: 10px;">
                 <img
                     src="${result.logo}"
                     alt="logo"
-                    width="70px"
-                    height="auto"
+                    style="max-height: 100%; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;"
                 />
+                </div>
                 <h5 class="card-title">${result.title}</h5>
                 <p class="card-text" style="font-size: 12px;">
                   ${result.desc}
