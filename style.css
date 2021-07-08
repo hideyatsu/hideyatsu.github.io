@@ -27,13 +27,7 @@ button.btn.btn-lg.dropdown-toggle.font-custom {
 button.btn.font-custom2 {
   background-color: #10cb6c;
   color: white;
-  /*font-family: Catamaran;*/
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 41px;
-  width: 200px;
-  height: 60px;
+  font-size: 15px;
 }
 
 div.col-12.content {
