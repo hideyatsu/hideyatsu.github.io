@@ -247,7 +247,7 @@
         `;
         let dataArr = config[data];
         dataArr.forEach((result) => {
-          listApp += `<div class="card" style="width: 230px; height:300px;background-color: #ebebeb;text-align:center; margin:10px">
+          listApp += `<div class="card" style="width: 230px; height:320px;background-color: #ebebeb;text-align:center; margin:10px">
             <div class="card-body">
             <div style="height:90px; position: relative; margin-bottom: 10px;">
                 <img
@@ -263,7 +263,7 @@
 
             </div>
             <div style="margin-bottom:20px">
-              <a class="btn btn-primary btn-sm" href="http://${result.url}">Open</a>
+              <a class="btn btn-primary btn-sm" href="${result.url}">Open</a>
             </div>
         </div>`;
         });
